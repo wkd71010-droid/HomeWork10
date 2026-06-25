@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ModuleAndPlugin.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ModuleAndPlugin.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ModuleAndPluginEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Temporary">
+      <UniqueIdentifier>{203F7347-A1B6-31D9-B591-60136233C872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Temporary\Source">
+      <UniqueIdentifier>{30D2BD8A-A231-3345-8747-015F944523F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Temporary\Source\Temporary">
+      <UniqueIdentifier>{8719FEC1-0069-3BA4-88E8-3D168DA274BC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Temporary\Source\Temporary\Temporary.Build.cs">
+      <Filter>Plugins\Temporary\Source\Temporary</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\Temporary\Source\Temporary\Temporary.cpp">
+      <Filter>Plugins\Temporary\Source\Temporary</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Temporary\Source\Temporary\Temporary.h">
+      <Filter>Plugins\Temporary\Source\Temporary</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\Temporary\Temporary.uplugin">
+      <Filter>Plugins\Temporary</Filter>
+    </None>
+    <Filter Include="Source\ModuleAndPlugin">
+      <UniqueIdentifier>{F7B809D6-C32F-3973-A495-3F3168B4B280}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ModuleAndPlugin\ModuleAndPlugin.Build.cs">
+      <Filter>Source\ModuleAndPlugin</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ModuleAndPlugin\ModuleAndPlugin.cpp">
+      <Filter>Source\ModuleAndPlugin</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ModuleAndPlugin\ModuleAndPlugin.h">
+      <Filter>Source\ModuleAndPlugin</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ModuleAndPlugin\ModuleAndPluginCharacter.cpp">
+      <Filter>Source\ModuleAndPlugin</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ModuleAndPlugin\ModuleAndPluginCharacter.h">
+      <Filter>Source\ModuleAndPlugin</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ModuleAndPlugin\ModuleAndPluginGameMode.cpp">
+      <Filter>Source\ModuleAndPlugin</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ModuleAndPlugin\ModuleAndPluginGameMode.h">
+      <Filter>Source\ModuleAndPlugin</Filter>
+    </ClInclude>
+    <Filter Include="Source\Test">
+      <UniqueIdentifier>{D9386F37-2A31-3E18-96BF-A16556AD2C07}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Test\Test.Build.cs">
+      <Filter>Source\Test</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Test\Test.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Test\Test.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Test\TestActor.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Test\TestActor.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

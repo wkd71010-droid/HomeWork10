@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"C:\\Homework\\HomeWork10\\ModuleAndPlugin\\Source\\ModuleAndPlugin\\ModuleAndPlugin.Build.cs",
+		"C:\\Homework\\HomeWork10\\ModuleAndPlugin\\Source\\Test\\Test.Build.cs",
+		"C:\\Homework\\HomeWork10\\ModuleAndPlugin\\Plugins\\Temporary\\Source\\Temporary\\Temporary.Build.cs",
+		"C:\\Homework\\HomeWork10\\ModuleAndPlugin\\Source\\ModuleAndPlugin.Target.cs",
+		"C:\\Homework\\HomeWork10\\ModuleAndPlugin\\Source\\ModuleAndPluginEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}
